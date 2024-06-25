@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.braguia.ui.MainActivity">
+
+    <item android:title="@string/user">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/location_settings"
+                    android:icon="@drawable/settings_icon"
+                    android:title="@string/settings"/>
+                <item
+                    android:id="@+id/location_service_settings"
+                    android:icon="@drawable/location_service_icon"
+                    android:title="@string/loc_settings"/>
+                <item
+                    android:id="@+id/login"
+                    android:icon="@drawable/login_icon"
+                    android:title="@string/LoginReady" />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="@string/logout" />
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/profile_icon"
+                    android:title="@string/profile" />
+                <item
+                    android:id="@+id/history"
+                    android:icon="@drawable/history_icon"
+                    android:title="@string/history" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/content">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/maps"
+                    android:icon="@drawable/maps_icon"
+                    android:title="@string/maps"/>
+                <item
+                    android:id="@+id/media"
+                    android:icon="@drawable/media_icon"
+                    android:title="@string/media" />
+                <item
+                    android:id="@+id/pins"
+                    android:icon="@drawable/pin_icon"
+                    android:title="@string/pins"/>
+                <item
+                    android:id="@+id/trails"
+                    android:icon="@drawable/trails_icon"
+                    android:title="@string/trails" />
+            </group>
+        </menu>
+    </item>
+</menu>
