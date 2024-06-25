@@ -1,5 +1,5 @@
 # TDS-AndroidStudio
-BraGuia é uma aplicação móvel que oferece funcionalidades completas de guia turístico, incluindo navegação geográfica, reprodução de media sobre pontos de interesse e muito mais. Desenvolvido como uma aplicação nativa Android na Parte 1 do trabalho prático, o projeto utiliza tecnologias como Java/Kotlin e integra o Google Maps para navegação.
+BraGuia é uma aplicação móvel que oferece funcionalidades completas de guia turístico, incluindo navegação geográfica, reprodução de media sobre pontos de interesse e muito mais. Desenvolvido como uma aplicação nativa Android na Parte 1 do trabalho prático, o projeto utiliza tecnologias como Java e integra o Google Maps para navegação.
 
 
 ## Estrutura do Projeto
