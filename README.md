@@ -1,10 +1,23 @@
-# TDS-AndroidStudio
-BraGuia é uma aplicação móvel que oferece funcionalidades completas de guia turístico, incluindo navegação geográfica, reprodução de media sobre pontos de interesse e muito mais. Desenvolvido como uma aplicação nativa Android na Parte 1 do trabalho prático, o projeto utiliza tecnologias como Java e integra o Google Maps para navegação.
+# TDS-AndroidStudio – BraGuia: Native Tourist Guide Application
 
+BraGuia is a native Android mobile application developed as part of the **Software Development for Mobile Devices** course. It functions as a comprehensive digital tourist guide for the city of Braga, providing users with geographic navigation, contextual media playback, and relevant information about local points of interest.
 
-## Estrutura do Projeto
-O projeto está estruturado conforme os seguintes critérios:
+This project corresponds to **Part 1** of the practical assignment and was implemented using Android Studio with Java.
 
-- Backend: Conecta-se a um backend específico para obter dados.
-- Colaboração: Desenvolvido em grupo de 3 pessoas, hospedado em um único repositório no GitHub.
-- Tecnologias: Utiliza Android Service para monitorização de localização em background e integra bibliotecas como Google Maps Platform.
+## Project Overview
+
+The application offers the following key features:
+
+- Real-time GPS tracking and navigation within the city.
+- Integration with **Google Maps Platform** for route visualization and location services.
+- Access to curated multimedia content (e.g., images, descriptions) for tourist attractions.
+- Clean and intuitive user interface tailored for mobile experiences.
+- Background location monitoring using Android Services.
+
+## Technologies Used
+
+- **Language:** Java
+- **IDE:** Android Studio
+- **Mapping:** Google Maps SDK for Android
+- **Architecture:** Native Android app using Activities, Fragments, and Services
+- **Backend Integration:** Connects to a custom backend to retrieve and display tourist data dynamically
